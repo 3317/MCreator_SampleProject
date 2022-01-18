@@ -1,0 +1,32 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:cobweb"
+    },
+    "title": "Sp_ad _01",
+    "description": "Sp_ad _01",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spad_01": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "loot": [
+      "sp:chests/sp_root_01"
+    ]
+  }
+}

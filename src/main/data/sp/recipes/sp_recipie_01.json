@@ -1,0 +1,16 @@
+{
+  "group": "sp_recipie_group_01",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_torch",
+    "count": 1
+  }
+}

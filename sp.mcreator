@@ -1,9 +1,63 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Spdim01",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spdim_01",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "Spbiome01",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spbiome_01"
+    },
+    {
+      "name": "Sproot01",
+      "type": "loottable",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sproot_01"
+    },
+    {
+      "name": "Sprecipie01",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sprecipie_01"
+    },
+    {
+      "name": "Spad01",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spad_01"
+    },
+    {
+      "name": "Spfn01",
+      "type": "function",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spfn_01"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.sp.spbiome_01": "Sp-biome-01"
+    }
   },
   "foldersRoot": {
     "name": "~",
