@@ -2,8 +2,8 @@
   "_fv": 24,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Sp_ad _01",
-    "achievementDescription": "Sp_ad _01",
+    "achievementName": "Sp_ad_01",
+    "achievementDescription": "Sp_ad_01",
     "achievementIcon": {
       "value": "Blocks.WEB"
     },
@@ -16,12 +16,12 @@
       "Sproot01"
     ],
     "rewardRecipes": [],
-    "rewardFunction": "No function",
+    "rewardFunction": "Spfn01",
     "rewardXP": 10,
-    "achievementType": "task",
+    "achievementType": "challenge",
     "parent": {
       "value": "No parent: root"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"37\" y=\"17\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.APPLE</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"43\" y=\"69\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.LAPIS_BLOCK</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

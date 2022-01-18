@@ -4,20 +4,20 @@
     "icon": {
       "item": "minecraft:cobweb"
     },
-    "title": "Sp_ad _01",
-    "description": "Sp_ad _01",
-    "frame": "task",
+    "title": "Sp_ad_01",
+    "description": "Sp_ad_01",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
     "spad_01": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:placed_block",
       "conditions": {
         "item": {
           "items": [
-            "minecraft:apple"
+            "minecraft:lapis_block"
           ]
         }
       }
@@ -25,6 +25,7 @@
   },
   "rewards": {
     "experience": 10,
+    "function": "sp:sp_fn_01",
     "loot": [
       "sp:chests/sp_root_01"
     ]

@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "function",
   "definition": {
-    "code": "# Enter the function code here\n",
+    "code": "# Enter the function code here\nadvancement revoke @s only sp:spad_01",
     "name": "sp_fn_01",
     "namespace": "mod"
   }
